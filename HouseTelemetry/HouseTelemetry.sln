@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudRepository", "CloudRep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseTelemetry.Abstract", "HouseTelemetry.Abstract\HouseTelemetry.Abstract.csproj", "{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseTelemetry.Core", "HouseTelemetry.Core\HouseTelemetry.Core.csproj", "{4696AE17-D943-416B-8E34-2921C87BEDC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4696AE17-D943-416B-8E34-2921C87BEDC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4696AE17-D943-416B-8E34-2921C87BEDC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4696AE17-D943-416B-8E34-2921C87BEDC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4696AE17-D943-416B-8E34-2921C87BEDC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

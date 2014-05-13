@@ -2,7 +2,7 @@ using System;
 
 namespace HouseTelemetry.Abstract
 {
-	public interface IRading
+	public interface IReading
 	{
 		DateTime Date { get; set; }
 		double Value { get; set; }

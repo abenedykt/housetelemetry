@@ -3,6 +3,6 @@
 	public interface ISensorReading
 	{
 		ISensor Sensor { get; set; }
-		IRading Reading { get; set; }
+		IReading Value { get; set; }
 	}
 }
