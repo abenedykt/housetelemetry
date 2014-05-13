@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30110.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseTelemetry", "HouseTelemetry\HouseTelemetry\HouseTelemetry.csproj", "{9AA755D4-380A-4569-9BD8-AB12C6F2D05E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudRepository", "CloudRepository\CloudRepository.csproj", "{498A9DB7-C69D-412D-8BE1-7A7724AB2ACD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseTelemetry.Abstract", "HouseTelemetry.Abstract\HouseTelemetry.Abstract.csproj", "{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9AA755D4-380A-4569-9BD8-AB12C6F2D05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AA755D4-380A-4569-9BD8-AB12C6F2D05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AA755D4-380A-4569-9BD8-AB12C6F2D05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498A9DB7-C69D-412D-8BE1-7A7724AB2ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498A9DB7-C69D-412D-8BE1-7A7724AB2ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498A9DB7-C69D-412D-8BE1-7A7724AB2ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498A9DB7-C69D-412D-8BE1-7A7724AB2ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FAF7C0-848C-40BE-98EA-5561D2BECE6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
