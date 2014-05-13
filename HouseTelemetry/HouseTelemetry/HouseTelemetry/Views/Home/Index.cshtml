@@ -1,10 +1,18 @@
-﻿@model dynamic
+﻿@model IEnumerable<HouseTelemetry.Abstract.ISensorReading>
 
 @{
-	ViewBag.Title = "title";
+	ViewBag.Title = "House Telemetry";
 	Layout = null;
 }
 
-<h2>test</h2>
-
-<h2>hello world - mvc5 ;)</h2>
+<ol>
+	@foreach (var reading in Model)
+	{
+		<li>
+			<div>
+				@reading.Sensor.Name <br />
+				@reading.Reading.Value
+			</div>
+		</li>
+	}
+</ol>
