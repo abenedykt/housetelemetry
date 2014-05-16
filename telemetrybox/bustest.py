@@ -1,13 +1,14 @@
-from azure.servicebus import *
+from azure.servicebus import QueueService
 import json
 
+queue_service = QueueService(account_name, account_key)
 
 def get_cpu_temp():
-    tempfile = open("/sys/class/thermal/thermal_zone0/temp")
-    cpu_temp = tempfile.read()
-    tempfile.close()
-    return float(cpu_temp)/1000
-
+    tempfile = time.second
+    # cpu_temp = tempfile.read()
+    # tempfile.close()
+    # return float(cpu_temp)/1000
+    return tempfile
 
 bus = ServiceBusService('namespace', 'key', 'owner')
 
